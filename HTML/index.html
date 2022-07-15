@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,33 +8,42 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>CV Olivier Reboul</title>
 </head>
-<body>
-    <div>
+
+<body class="bg-slate-700 text-white">
+    <div class="container mx-5">
+        <nav>
+            <div>
+                <a id="linkOlivierR" href="#">Olivier R.</a>
+                <a id="linkCompetences" class="nav-link" href="#bloc-competences">Comp&eacute;tences</a>
+                <a id="linkExpe" class="nav-link" href="#bloc-experiences">Exp&eacute;riences professionelles</a>
+                <a id="linkContact" class="nav-link" href="#bloc-contact">Contact</a>
+                <a id="linkFormations" class="nav-link" href="#bloc-formations">Formations</a>
+                <a id="linkFooter" class="nav-link" href="#bloc-footer">Liens</a>
+            </div>
+        </nav>
         <div>
-            <nav>
-                <div>
-                    <a id="linkOlivierR" href="#">Olivier R.</a>
-                    <a id="linkCompetences" class="nav-link" href="#bloc-competences">Comp&eacute;tences</a>
-                    <a id="linkExpe" class="nav-link" href="#bloc-experiences">Exp&eacute;riences professionelles</a>
-                    <a id="linkContact" class="nav-link" href="#bloc-contact">Contact</a>
-                    <a id="linkFormations" class="nav-link" href="#bloc-formations">Formations</a>
-                    <a id="linkFooter" class="nav-link" href="#bloc-footer">Liens</a>
-                </div>
-            </nav>
-        </div>
-        <div>
-            <h1 class="display-4 text-white text-center fw-bold">Olivier REBOUL</h1>
+            <h1 class="text-5xl text-center mx-10">Olivier REBOUL</h1>
         </div>
         <div>
             <div>
                 <div>
-                    <div >
-                        <img id="photoProfil" src="./img/photo-profil.png" alt="Photo Profil" class="photo_profil">
-                    </div>
-                </div>
-                <div>
                     <div>
-                        <h4>PROFIL </h4>
+                        <img id="photoProfil" src="../img/photo-profil.png" alt="Photo Profil"
+                            class="w-44 h-44 rounded-full">
+                    </div>
+                    <div id="bloc-contact" class="bg-gray-600">
+                        <h4 class="text-xl lg:text-2xl">CONTACT</h4>
+                        <hr class="border-4 w-12">
+                        <p>
+                            Mobile: 06.42.48.57.95 <br>
+                            Adresse: 256 Rue des Grandes Terres <br>
+                            74330 Epagny <br>
+                            Mail: <a href="olivier.reboul@gmail.com">olivier.reboul@gmail.com</a>
+                        </p>
+                    </div>
+                    <div class="bg-yellow-400">
+                        <h4 class="text-xl lg:text-2xl">PROFIL </h4>
+                        <hr class="border-4 w-12">
                         <p>
                             Reconverti dans le développement web, je suis impatient de
                             mettre en pratique mes nouvelles compétences. Ancien automaticien CVC pendant 9 ans, j'ai
@@ -41,10 +51,9 @@
                             différentes supervisions sur des projets importants.
                         </p>
                     </div>
-                </div>
-                <div>
-                    <div>
-                        <h4>EXPERIENCES PROFESSIONELLES</h4>
+                    <div id="bloc-experiences" class="bg-blue-600">
+                        <h4 class="text-xl lg:text-2xl">EXPERIENCES PROFESSIONELLES</h4>
+                        <hr class="border-4 w-12">
                         <article>
                             <div>
                                 <div>
@@ -54,7 +63,7 @@
                                 <div>
                                     <div>
                                         <h6>EREP</h6>
-                                        <p >
+                                        <p>
                                             <em>Automaticien CVC<br></em>Programmation, mise en service d’automate pour
                                             le CVC Siemens, Distech.
                                             Réalisation de supervision et d’intégration équipements tiers.
@@ -73,7 +82,8 @@
                                     <div>
                                         <h6>M2EI</h6>
                                         <p>
-                                            <em> Automaticien CVC<br></em>Programmation, mise en service d’automates pour le
+                                            <em> Automaticien CVC<br></em>Programmation, mise en service d’automates
+                                            pour le
                                             CVC Trend,
                                             Synco.
                                             Réalisation de supervision.
@@ -109,33 +119,34 @@
                                 </div>
                                 <div>
                                     <div>
-                                        <h6>Cap Ibéri'k</h6> <p>
-                                                <em class="font-italic">Alternance Chargé d’affaires en projets Photovoltaïques<br></em>
-                                                Conduite de projet photovoltaïque et site isolé avec parc batterie.
-                                                </p>
+                                        <h6>Cap Ibéri'k</h6>
+                                        <p>
+                                            <em class="font-italic">Alternance Chargé d’affaires en projets
+                                                Photovoltaïques<br></em>
+                                            Conduite de projet photovoltaïque et site isolé avec parc batterie.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
                         </article>
-                        
                     </div>
                 </div>
             </div>
             <div>
-                <div>
-                    <div id="bloc-contact">
-                        <h4>CONTACT</h4>
-                        <p>
-                            Mobile: 06.42.48.57.95 <br>
-                            Adresse: 256 Rue des Grandes Terres <br>
-                            74330 Epagny <br>
-                            Mail: <a href="olivier.reboul@gmail.com">olivier.reboul@gmail.com</a>
-                        </p>
-                    </div>
+                <div id="bloc-contact" class="bg-gray-600">
+                    <h4 class="text-xl lg:text-2xl">CONTACT</h4>
+                    <hr class="border-4 w-12">
+                    <p>
+                        Mobile: 06.42.48.57.95 <br>
+                        Adresse: 256 Rue des Grandes Terres <br>
+                        74330 Epagny <br>
+                        Mail: <a href="olivier.reboul@gmail.com">olivier.reboul@gmail.com</a>
+                    </p>
                 </div>
-                <div id="bloc-competences">
+                <div id="bloc-competences" class="bg-red-400">
                     <div>
-                        <h4>COMPETENCES</h4>
+                        <h4 class="text-xl lg:text-2xl">COMPETENCES</h4>
+                        <hr class="border-4 w-12">
                         <h3>Langages</h3>
                         <div>
                             <article>
@@ -146,8 +157,9 @@
                                     <div>
                                         <div>
                                             <h6>JavaScript</h6>
-                                            <div><!--Todo ProgressBar-->
-                                                <div>90%</div>                                            
+                                            <div>
+                                                <!--Todo ProgressBar-->
+                                                <div>90%</div>
                                             </div>
                                         </div>
                                     </div>
@@ -161,8 +173,9 @@
                                     <div>
                                         <div>
                                             <h6>HTML 5 /CSS 3</h6>
-                                            <div><!--Todo ProgressBar-->
-                                                <div>90%</div>                                            
+                                            <div>
+                                                <!--Todo ProgressBar-->
+                                                <div>90%</div>
                                             </div>
                                         </div>
                                     </div>
@@ -174,11 +187,12 @@
                                         <div><img src="./img/postgres-logo.png" alt="logo SQL"></div>
                                     </div>
                                     <div>
-                                        <div >
+                                        <div>
                                             <h6>PostgreSQL</h6>
                                         </div>
-                                        <div><!--Todo ProgressBar-->
-                                            <div>70%</div>                                            
+                                        <div>
+                                            <!--Todo ProgressBar-->
+                                            <div>70%</div>
                                         </div>
                                     </div>
                                 </div>
@@ -191,15 +205,16 @@
                                     <div>
                                         <div>
                                             <h6>Python</h6>
-                                            <div><!--Todo ProgressBar-->
-                                                <div>60%</div>                                            
+                                            <div>
+                                                <!--Todo ProgressBar-->
+                                                <div>60%</div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </article>                           
+                            </article>
                         </div>
-                        <article>                            
+                        <article>
                             <h3>Back</h3>
                             <ul>
                                 <li>Node js</li>
@@ -253,13 +268,14 @@
                     </div>
                 </div>
                 <div>
-                    <div id="bloc-formations">
-                        <h4>FORMATIONS</h4>
+                    <div id="bloc-formations" class="bg-amber-600">
+                        <h4 class="text-xl lg:text-2xl"></h4>FORMATIONS</h4>
+                        <hr class="border-4 w-12">
                         <article>
                             <span>2022</span>
                             <p>Formation Web developpeur avec l'école O'Clock</p>
                         </article>
-                        <article >
+                        <article>
                             <span>2011</span>
                             <p>Licence en alternance Energies renouvelables avec l’organisme Tétras à Annecy le Vieux
                                 (74).</p>
@@ -278,7 +294,7 @@
         </div>
 
         <div>
-            <footer id="bloc-footer">
+            <footer id="bloc-footer" class="bg-emerald-600">
                 <ul>
                     <li><a href="https://github.com/oliv42">Github</a></li>
                     <!-- Todo Vérifier si le lien est correcte -->
@@ -292,4 +308,5 @@
     </div>
 
 </body>
+
 </html>
