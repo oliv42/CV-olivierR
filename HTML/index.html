@@ -11,21 +11,48 @@
 
 <body class="bg-gray-800 text-white">
     <div class="container mx-3 mx-auto max-w-md lg:max-w-5xl">
-        <nav>
-            <div>
-                <a id="linkOlivierR" href="#">Olivier R.</a>
-                <a id="linkCompetences" class="nav-link" href="#bloc-competences">Comp&eacute;tences</a>
-                <a id="linkExpe" class="nav-link" href="#bloc-experiences">Exp&eacute;riences professionelles</a>
-                <a id="linkContact" class="nav-link" href="#bloc-contact">Contact</a>
-                <a id="linkFormations" class="nav-link" href="#bloc-formations">Formations</a>
-                <a id="linkFooter" class="nav-link" href="#bloc-footer">Liens</a>
+
+        <nav class="bg-gray-700 border-gray-200 px-2 sm:px-4 py-2.5 rounded">
+            <div class="container flex flex-wrap justify-between items-center mx-auto">
+            <a href="https://flowbite.com/" class="flex items-center">
+                <img src="../img/cv-logo.png" class="mr-3 h-6 sm:h-9" alt="cv Logo">
+                <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">CV olivier R.
+                </span>
+            </a>
+            <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+            </button>
+            <div class="w-full md:block md:w-auto" id="navbar-default">
+                <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+                <li>
+                    <a href="#bloc-contact" class="block py-2 pr-4 pl-3 text-white hover:bg-blue-600 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">Olivier R.</a>
+                </li>
+                <li>
+                    <a href="#bloc-competences" class="block py-2 pr-4 pl-3 text-gray-700 hover:bg-blue-600  border-b border-gray-100  md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:text-white  border-gray-700">Comp&eacute;tences</a>
+                </li>
+                <li>
+                    <a href="#bloc-experiences" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Exp&eacute;riences professionelles</a>
+                </li>
+                <li>
+                    <a href="#bloc-formations" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Formations</a>
+                </li>
+                <li class="flex space-x-6 justify-center">
+                    <a href="https://github.com/oliv42"><img src="../img/github.png" alt="logo github" class="h-6 w-6"></a>  
+                        <a href="https://www.linkedin.com/in/olivier-reboul-052281140/"><img src="../img/linkedin.png" alt="logo linkedin" class="h-6 w-6"></a>    
+                        <a href="blabla"><img src="../img/impression.png" alt="logo github" class="h-6 w-6"></a>
+                </li>
+                </ul>
+            </div>
             </div>
         </nav>
+  
+        
         <div id="bloc-contact">
             <div>
                 <h1 class="text-5xl text-center my-10">Olivier REBOUL</h1>
             </div>
-            <div id="bloc-contact" class="bg-gray-600">
+            <div class="bg-gray-600">
                 <div class="">
                     <img id="photoProfil" src="../img/photo-profil.png" alt="Photo Profil"
                         class="w-44 h-44 rounded-full mx-auto lg:mx-3 mb-3 border-2">
@@ -56,7 +83,7 @@
                 <hr class="border-4 w-12">
                 <article class="my-5 flex">
                     <div class="mx-5">
-                        <div class="text-center text-xs mb-1"><span>2016-2021</span></div>
+                        <div class="text-center text-xs mb-1"><span>2016-2022</span></div>
                         <div class="w-24 h-24 bg-slate-400 grid place-items-center rounded-full"><img
                                 src="./img/erep-logo.png" alt="Logo entreprise EREP"
                                 class="w-20 h-20 object-scale-down"></div>
@@ -195,7 +222,7 @@
                                 <div class="grow">
                                     <div class="w-full bg-gray-200 rounded-full dark:bg-gray-300">
                                         <div class="bg-blue-600 text-xs font-medium text-blue-100 text-center p-0.5 leading-none rounded-full"
-                                            style="width: 70%"> 70%</div>
+                                            style="width: 60%"> 60%</div>
                                     </div>
                                 </div>
                             </article>
@@ -241,7 +268,7 @@
                             <article class="m-5">
                                 <div>
                                     <div>
-                                        <div class="inline-block mr-5 w-[132px]">Node js</div>
+                                        <div class="inline-block mr-5 w-[132px]">React</div>
                                         <div class="mx-0.5 w-5 h-5 rounded-full bg-slate-200 inline-block border-2 border-slate-200"></div>
                                         <div class="mx-0.5 w-5 h-5 rounded-full bg-slate-200 inline-block border-2 border-slate-200"></div>
                                         <div class="mx-0.5 w-5 h-5 rounded-full bg-slate-200 inline-block border-2 border-slate-200"></div>
@@ -249,27 +276,19 @@
                                         <div class="mx-0.5 w-5 h-5 rounded-full inline-block border-2 border-slate-200"></div>
                                     </div>
                                     <div>
-                                        <div class="inline-block mr-5 w-[132px]">Express</div>
+                                        <div class="inline-block mr-5 w-[132px]">vue</div>
                                         <div class="mx-0.5 w-5 h-5 rounded-full bg-slate-200 inline-block border-2 border-slate-200"></div>
                                         <div class="mx-0.5 w-5 h-5 rounded-full bg-slate-200 inline-block border-2 border-slate-200"></div>
-                                        <div class="mx-0.5 w-5 h-5 rounded-full bg-slate-200 inline-block border-2 border-slate-200"></div>
-                                        <div class="mx-0.5 w-5 h-5 rounded-full bg-slate-200 inline-block border-2 border-slate-200"></div>
+                                        <div class="mx-0.5 w-5 h-5 rounded-full inline-block border-2 border-slate-200"></div>
+                                        <div class="mx-0.5 w-5 h-5 rounded-full inline-block border-2 border-slate-200"></div>
                                         <div class="mx-0.5 w-5 h-5 rounded-full inline-block border-2 border-slate-200"></div>
                                     </div>
                                     <div>
-                                        <div class="inline-block mr-5 w-[132px]">API REST/ RESTful</div>
+                                        <div class="inline-block mr-5 w-[132px]">jQuery</div>
                                         <div class="mx-0.5 w-5 h-5 rounded-full bg-slate-200 inline-block border-2 border-slate-200"></div>
                                         <div class="mx-0.5 w-5 h-5 rounded-full bg-slate-200 inline-block border-2 border-slate-200"></div>
                                         <div class="mx-0.5 w-5 h-5 rounded-full bg-slate-200 inline-block border-2 border-slate-200"></div>
                                         <div class="mx-0.5 w-5 h-5 rounded-full bg-slate-200 inline-block border-2 border-slate-200"></div>
-                                        <div class="mx-0.5 w-5 h-5 rounded-full inline-block border-2 border-slate-200"></div>
-                                    </div>
-                                    <div>
-                                        <div class="inline-block mr-5 w-[132px]">GraphQL</div>
-                                        <div class="mx-0.5 w-5 h-5 rounded-full bg-slate-200 inline-block border-2 border-slate-200"></div>
-                                        <div class="mx-0.5 w-5 h-5 rounded-full bg-slate-200 inline-block border-2 border-slate-200"></div>
-                                        <div class="mx-0.5 w-5 h-5 rounded-full bg-slate-200 inline-block border-2 border-slate-200"></div>
-                                        <div class="mx-0.5 w-5 h-5 rounded-full inline-block border-2 border-slate-200"></div>
                                         <div class="mx-0.5 w-5 h-5 rounded-full inline-block border-2 border-slate-200"></div>
                                     </div>
                                 </div>
@@ -395,24 +414,26 @@
                 </div>
                 <div>
                     <div id="bloc-formations" class="bg-amber-600">
-                        <h4 class="mt-3 text-xl lg:text-2xl"></h4>FORMATIONS</h4>
+                        <h4 class="mt-3 text-xl lg:text-2xl">FORMATIONS</h4>
                         <hr class="border-4 w-12">
-                        <article>
-                            <span>2022</span>
-                            <p>Formation Web developpeur avec l'école O'Clock</p>
-                        </article>
-                        <article>
-                            <span>2011</span>
-                            <p>Licence en alternance Energies renouvelables avec l’organisme Tétras à Annecy le Vieux
-                                (74).</p>
-                        </article>
-                        <article>
-                            <span>2008</span>
-                            <p>Licence Système Embarqué à l’IUT de Grenoble (38).</p>
-                        </article>
-                        <article>
-                            <span>2007</span>
-                            <p>DUT Génie Électrotechnique et Informatique Industrielle</p>
+                        <article class="m-5">
+                            <div >
+                                <span>2022</span>
+                                <p class="mx-5 text-sm">Formation Web developpeur avec l'école O'Clock</p>
+                            </div>
+                            <div >
+                                <span>2011</span>
+                                <p class="mx-5 text-sm">Licence en alternance Energies renouvelables avec l’organisme Tétras à Annecy le Vieux
+                                    (74).</p>
+                            </div>
+                            <div >
+                                <span>2008</span>
+                                <p class="mx-5 text-sm">Licence Système Embarqué à l’IUT de Grenoble (38).</p>
+                            </div>
+                            <div >
+                                <span>2007</span>
+                                <p class="mx-5 text-sm">DUT Génie Électrotechnique et Informatique Industrielle</p>
+                            </div>
                         </article>
                     </div>
                 </div>
@@ -421,14 +442,14 @@
 
         <div>
             <footer id="bloc-footer" class="bg-emerald-600">
-                <ul>
-                    <li><a href="https://github.com/oliv42">Github</a></li>
-                    <!-- Todo Vérifier si le lien est correcte -->
-                    <li><a href="https://www.linkedin.com/in/olivier-reboul-052281140/">linkedin</a></li>
-                    <!-- A voir pour faire une feuille CSS -->
-                    <li><a href="blabla"></a>Imprimer CV</li>
+                <hr class="border-2 w-4/5 mx-auto my-3">
+                <ul class="flex space-x-6 justify-center">
+                    <a href="https://github.com/oliv42"><img src="../img/github.png" alt="logo github" class="h-6 w-6"></a>  
+                    <a href="https://www.linkedin.com/in/olivier-reboul-052281140/"><img src="../img/linkedin.png" alt="logo linkedin" class="h-6 w-6"></a>    
+                    <!-- Todo A voir pour faire une feuille CSS + script dimpression-->
+                    <a href="blabla"><img src="../img/impression.png" alt="logo github" class="h-6 w-6"></a> 
                 </ul>
-                <small>&copy; Copyright 2022, Réalisé par Olivier Reboul</small>
+                <div class="text-center text-xs mt-3">&copy; Copyright 2022, Réalisé par Olivier Reboul</div>
             </footer>
         </div>
     </div>
