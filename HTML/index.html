@@ -10,34 +10,32 @@
 </head>
 
 <body class="bg-gray-800 text-white">
-    <div class="container mx-3 mx-auto max-w-md lg:max-w-5xl">
+    <div class="container mx-3 mx-auto max-w-lg lg:max-w-5xl">
 
-        <nav class="bg-gray-700 border-gray-200 px-2 sm:px-4 py-2.5 rounded">
+        <nav class="bg-red-700 border-gray-200 px-2 sm:px-4 py-2.5 rounded sticky top-0 lg:relative">
             <div class="container flex flex-wrap justify-between items-center mx-auto">
             <div class="flex items-center">
-                <img src="../img/cv-logo.png" class="mr-3 h-6 sm:h-9" alt="cv Logo">
-                <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">CV olivier R.
-                </span>
+                <img src="../img/cv-logo.png" class="mr-3 h-6 sm:h-9" alt="CV Logo">
             </div>
-            <button id="navBarButton" data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+            <button id="navBarButton" data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
                 <span class="sr-only">Open main menu</span>
                 <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
             </button>
-            <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-                <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+            <div class="hidden w-full lg:block lg:w-auto" id="navbar-default">
+                <ul class="flex flex-col mt-4 lg:flex-row lg:space-x-8 lg:mt-0 lg:text-sm lg:font-medium">
                 <li>
-                    <a href="#bloc-contact" class="block py-2 pr-4 pl-3 text-white hover:bg-blue-600 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">Olivier R.</a>
+                    <a href="#bloc-contact" class="block py-2 pr-4 pl-3 text-white hover:bg-blue-600 rounded lg:bg-transparent lg:text-blue-700 lg:p-0 dark:text-white" aria-current="page">Olivier R.</a>
                 </li>
                 <li>
-                    <a href="#bloc-competences" class="block py-2 pr-4 pl-3 text-gray-700 hover:bg-blue-600  border-b border-gray-100  md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:text-white  border-gray-700">Comp&eacute;tences</a>
+                    <a href="#bloc-competences" class="block py-2 pr-4 pl-3 text-gray-700 hover:bg-blue-600  border-b border-gray-100  lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:text-white  border-gray-700">Comp&eacute;tences</a>
                 </li>
                 <li>
-                    <a href="#bloc-experiences" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Exp&eacute;riences professionelles</a>
+                    <a href="#bloc-experiences" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Exp&eacute;riences professionelles</a>
                 </li>
                 <li>
-                    <a href="#bloc-formations" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Formations</a>
+                    <a href="#bloc-formations" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Formations</a>
                 </li>
-                <li class="flex space-x-6 justify-center">
+                <li class="flex space-x-6 justify-center lg:hidden">
                     <a href="https://github.com/oliv42"><img src="../img/github.png" alt="logo github" class="h-6 w-6"></a>  
                         <a href="https://www.linkedin.com/in/olivier-reboul-052281140/"><img src="../img/linkedin.png" alt="logo linkedin" class="h-6 w-6"></a>    
                         <a href="blabla"><img src="../img/impression.png" alt="logo github" class="h-6 w-6"></a>
