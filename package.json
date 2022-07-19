@@ -1,0 +1,27 @@
+{
+  "name": "cv-tailwind",
+  "version": "1.0.0",
+  "description": "Cv avec le CSS framework  Tailwind",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "postcss ./src/input.css -o ./dist/index.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliv42/CV-Tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oliv42/CV-Tailwind/issues"
+  },
+  "homepage": "https://github.com/oliv42/CV-Tailwind#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^10.0.0",
+    "tailwindcss": "^3.1.6"
+  }
+}
