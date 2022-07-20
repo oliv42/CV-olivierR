@@ -851,6 +851,16 @@ video {
 }
 
 /* Style print */
+/* print the cv seem impossible because of the param of the print for the  background font
+so i will push a pdf as a solution... */
+
+@page { 
+    size: auto;  
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0;
+    margin-bottom:  0;
+ }
 
 @media print {
     nav, footer {
